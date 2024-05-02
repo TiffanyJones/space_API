@@ -11,7 +11,6 @@ const NASA_API_KEY = ShEB5biaOhzZvSSF3A9Xc5BZY22BbOhh1FQeB3YQ;
 async function fetchData(url, handleData) {
   try {
     const response = await fetch(url);
-
     if (!response.ok) {
       throw new Error(`HTTP error! Status: ${response.status}`);
     }
