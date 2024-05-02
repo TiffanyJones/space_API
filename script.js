@@ -1,4 +1,3 @@
-import { NASA_API_KEY } from "./private";
 const main = document.querySelector("main");
 const apodEl = document.querySelector(".apod");
 const roverList = document.querySelector(".rover-list");
@@ -7,6 +6,7 @@ const dateInput = document.querySelector("#date-input");
 const submitButton = document.querySelector("#submit-button");
 
 const apodURL = `https://api.nasa.gov/planetary/apod?api_key=${NASA_API_KEY}`;
+const NASA_API_KEY = ShEB5biaOhzZvSSF3A9Xc5BZY22BbOhh1FQeB3YQ;
 
 async function fetchData(url, handleData) {
   try {
