@@ -5,7 +5,7 @@ const errorMsg = document.querySelector(".error-msg");
 const dateInput = document.querySelector("#date-input");
 const submitButton = document.querySelector("#submit-button");
 
-const NASA_API_KEY = "ShEB5biaOhzZvSSF3A9Xc5BZY22BbOhh1FQeB3YQ";
+
 const apodURL = `https://api.nasa.gov/planetary/apod?api_key=${NASA_API_KEY}`;
 
 
