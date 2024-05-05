@@ -52,7 +52,7 @@ submitButton.addEventListener("click", function () {
     ? dateInput.value
     : new Date().toISOString().slice(0, 10);
 
-  const roverURL = "https://idyllic-piroshki-a557be.netlify.app/.netlify/functions/roverAPI";
+  const roverURL = `https://idyllic-piroshki-a557be.netlify.app/.netlify/functions/roverAPI?date=${date}`;
 
   fetchData(roverURL, handleRoverData);
 });
